@@ -8,10 +8,16 @@
             "email": "davi@andradenunes.org"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sumeena/NotificationPusher"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "5.*",
-        "sly/notification-pusher": "2.*"
+        "sly/notification-pusher": "dev-issue-51-rename-ttl-to-time-to-live"
     },
     "autoload": {
         "psr-0": {
